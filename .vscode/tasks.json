@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "storybook",
+      "type": "shell",
+      "command": "pnpm storybook",
+      "options": {
+        "shell": {
+          "executable": "/bin/zsh",
+          "args": ["-c"]
+        }
+      },
+      "isBackground": true
+    },
+    {
+      "label": "app",
+      "type": "shell",
+      "command": "pnpm dev",
+      "options": {
+        "shell": {
+          "executable": "/bin/zsh",
+          "args": ["-c"]
+        }
+      },
+      "isBackground": true
+    }
+  ]
+}

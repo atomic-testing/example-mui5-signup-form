@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "nicoespeon.abracadabra",
+    "esbenp.prettier-vscode",
+    "actboy168.tasks",
+    "styled-components.vscode-styled-components",
+    "ms-playwright.playwright"
+  ],
+  "unwantedRecommendations": []
+}
